@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Calibri, san-serif;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    background-color: teal;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: #0f5353;
+}
+ 
+.holiday_heading{
+    font-size: 80px;
+    color: gray;
+}
+
+.holiday_text{
+    font-size: 25px;
+    color: #bfbebe;
+}
+
+.landing_page{
+    background: white url("Images/img6.jpg") no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.landing_page .wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.landing_page .flex_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.landing_page .vacations_heading{
+    font-size: 100px;
+    color: #7ebebe;
+}
+
+.vacations_header{
+    background: radial-gradient(#0f5353, teal);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.vacations_header .heading{
+    font-size: 70px;
+
+}
+
+
+.main_nav{
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+    position: sticky;
+    top: 0;
+}
+
+.main_nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.main_nav a:hover{
+    background-color: #0f5353;
+    color: white;
+    border-radius: 30px;
+}
+
+
+.holiday_section{
+    padding: 40px 80px;
+    text-align: center;
+}
+
+
+.visit_places{
+    text-align: center;
+}
+
+.visit_places .holiday_heading{
+    padding-top: 60px;
+}
+
+.visit_places .visit_div{
+    margin-top: 20px;
+}
+
+img{
+    width: 500px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+
+.tours_gallery{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.tours_gallery .gallery_div{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.tours_gallery .gallery_img{
+
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px gray;
+    display: inline-block;
+    margin: 20px;
+}
+
+.tours_gallery .gallery_img img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+
+}
+
+.tours_gallery .gallery_img img:hover{
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+}
+
+
+.packages_section{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.packages_section .packages_wrapper{
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.packages_wrapper .package_card{
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.package_card img{
+    width: 100%;
+    height: 200px;
+}
+
+.package_card .card_heading{
+    font-size: 30px;
+}
+
+.package_card .card_text{
+    font-size: 15px;
+    color: gray;
+}
+
+.package_card .btn{
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 5px gray;
+    margin-bottom: 10px;
+}
+
+.footer_section{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.footer_section a{
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
