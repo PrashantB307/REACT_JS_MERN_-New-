@@ -1,0 +1,36 @@
+﻿
+
+React JS (MERN Stack)
+=====================
+
+-> React JS -> JavaScript / TypeScript
+-> React JS-> Component based development -> functional (Hooks) -> first application -> control flow -> custom components
+-> Core React JS
+-> Adv React JS (redux tookit + thunk + redux logger)
+-> Concepts + [Ui Library]
+
+
+Ui Library 
+==========
+
+-> MUI
+-> React Bootstrap
+-> Prime React
+-> Semantic Ui
+-> AntD
+
+
+Backend 
+=======
+-> Node JS server
+-> Express JS Server
+-> Mongo DB
+
+
+-> Major Project
+-> UI design
+-> FE dev
+-> BE dev
+-> deploy
+
++ Bonus -> Own Project -> Presentation -> rating -> 3.5/5 rating
